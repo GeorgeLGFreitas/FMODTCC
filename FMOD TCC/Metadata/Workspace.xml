@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Workspace" id="{91b3d145-5758-4f00-aa4b-6a1dbb56e7a1}">
+		<property name="builtBanksOutputDirectory">
+			<value>E:/Unity/TCC-project/TCC/Assets/StreamingAssets</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{df8a89a7-0e0f-49a8-ab7f-afa6514d88c7}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{6c426e06-05cc-42f2-8857-ce1cbcab2478}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{7f6d0f6d-68cb-4340-ad7c-6b91f9f331a5}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{55004b84-f0ea-44eb-8d9e-94dae865b5e4}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{de474d93-2f6a-4a8b-b496-011453e20b93}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{507a1b4a-c62e-4ce6-ac27-f0a150fbd8da}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{708b61f3-92c7-4215-8d7a-9fad1ec1a42c}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{44962cfa-91cc-48d0-b7b2-260cc66b1a5f}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{021fcd9d-7c4c-40b2-ad4d-517a7c0ec3e1}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{881eefda-5676-454f-8190-09b887a85a6b}</destination>
+		</relationship>
+	</object>
+</objects>
