@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{7821b108-5c87-47ed-8699-d411d1d30ec4}">
+		<property name="name">
+			<value>In-Game</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f349e625-45ec-4939-b756-68251e2a0606}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0bab3892-c851-4bf4-9522-864bd639f212}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{7e07ee18-3868-4f20-b0f8-f67a3e8aaf46}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f349e625-45ec-4939-b756-68251e2a0606}">
+		<relationship name="effects">
+			<destination>{eefc4eff-7718-4e63-9b2c-eefdc0ec42e8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0bab3892-c851-4bf4-9522-864bd639f212}" />
+	<object class="MixerBusFader" id="{eefc4eff-7718-4e63-9b2c-eefdc0ec42e8}" />
+</objects>
