@@ -11,7 +11,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{df8a89a7-0e0f-49a8-ab7f-afa6514d88c7}</destination>
+			<destination>{6ca35337-e5c7-407f-84da-9cc00087ef72}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{bb382f7f-66d6-47cd-81a9-9709fd5548b5}</destination>
@@ -35,7 +35,7 @@
 			<destination>{e7e278a2-3b65-40b5-bea9-29a2a28cb899}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{955f5a39-15d3-4634-a6d1-93251f5b2d0a}</destination>
+			<destination>{a8c36768-121b-4916-945a-6b7158665d58}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{bb382f7f-66d6-47cd-81a9-9709fd5548b5}">
@@ -93,10 +93,10 @@
 	<object class="MixerBusPanner" id="{a7965d71-31ec-4e3e-80d4-6397e935e693}" />
 	<object class="SingleSound" id="{d2715947-9d0c-465e-874a-f75cb044bc01}">
 		<property name="length">
-			<value>0.075011337868480701</value>
+			<value>0.046875</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.02</value>
+			<value>0.02781249999999999</value>
 		</property>
 		<property name="volume">
 			<value>10</value>
