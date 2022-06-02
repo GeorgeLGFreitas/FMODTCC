@@ -60,7 +60,8 @@
 	<object class="MarkerTrack" id="{6a9ae6cf-c209-4ec7-ba19-550e02723623}" />
 	<object class="GroupTrack" id="{1fe58d71-ae50-4df3-8174-c7129316a876}">
 		<relationship name="modules">
-			<destination>{7f874c74-d758-433c-a985-166207f8fb09}</destination>
+			<destination>{ea6d1260-1473-4759-9cd8-a9847d073200}</destination>
+			<destination>{5818d696-0b2b-4930-911f-d4699cd5b224}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d9fb846d-e6c6-464e-a872-1d6948a95c80}</destination>
@@ -68,7 +69,8 @@
 	</object>
 	<object class="Timeline" id="{70cbb235-4295-4885-8089-1922357b3da5}">
 		<relationship name="modules">
-			<destination>{7f874c74-d758-433c-a985-166207f8fb09}</destination>
+			<destination>{ea6d1260-1473-4759-9cd8-a9847d073200}</destination>
+			<destination>{5818d696-0b2b-4930-911f-d4699cd5b224}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{47ffa012-bbbc-4f42-9900-664b934feb17}">
@@ -88,12 +90,26 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8f69e4c0-838e-4957-bffd-12edcb112679}" />
-	<object class="SingleSound" id="{7f874c74-d758-433c-a985-166207f8fb09}">
+	<object class="SingleSound" id="{ea6d1260-1473-4759-9cd8-a9847d073200}">
+		<property name="start">
+			<value>1.5</value>
+		</property>
 		<property name="length">
-			<value>1.5624943310657597</value>
+			<value>1.6080000000000001</value>
+		</property>
+		<property name="volume">
+			<value>-9.5</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{21c8868d-f433-4e1a-b201-33f77f65f50b}</destination>
+			<destination>{7b05585b-bd57-47be-b080-c218ecb90321}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{5818d696-0b2b-4930-911f-d4699cd5b224}">
+		<property name="length">
+			<value>4.375</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{4566a43a-62c3-409a-bd36-47f426423be0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d9fb846d-e6c6-464e-a872-1d6948a95c80}">
