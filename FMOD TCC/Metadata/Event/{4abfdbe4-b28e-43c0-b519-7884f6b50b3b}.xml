@@ -98,7 +98,6 @@
 		<property name="timelockedOffset">
 			<value>0.076426624076354699</value>
 		</property>
-		<property name="name" />
 		<relationship name="modulators">
 			<destination>{7c113943-79d6-45ba-ad4c-503d00ee4db8}</destination>
 		</relationship>
@@ -108,7 +107,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fe42240e-6a9c-45c0-afb1-4e697668c7d4}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

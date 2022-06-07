@@ -92,13 +92,16 @@
 		<property name="length">
 			<value>1.762766439909297</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{57be039a-a457-4ddc-8c08-e4bc2c5d860f}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{63713be5-e443-48e6-baf8-5cdafeade0a7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{323b21b0-b273-471e-8523-8e64c266d1c0}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -120,6 +123,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{92ee4d26-5e83-4339-b0fd-dfaefecaf866}" />
 	<object class="MixerBusFader" id="{f2714419-da39-4b3a-8c0c-a1b53d9faeb2}" />
+	<object class="FadeCurve" id="{57be039a-a457-4ddc-8c08-e4bc2c5d860f}">
+		<relationship name="startPoint">
+			<destination>{c751cd2f-2555-427f-8602-f81818b98bd5}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{7d5100fa-09a8-4aef-b225-2503b2922e74}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{737ed53a-99a5-427f-88bb-e7f00947e854}">
 		<relationship name="effects">
 			<destination>{9dd2a6df-19bc-4b33-9542-969bdfd8acf8}</destination>
@@ -127,5 +138,24 @@
 	</object>
 	<object class="MixerBusPanner" id="{0fd2c37c-e373-4fed-8231-f0f9fe41950c}" />
 	<object class="MixerBusFader" id="{d3700e7a-41f8-446f-bcf4-04a339bd600c}" />
+	<object class="AutomationPoint" id="{c751cd2f-2555-427f-8602-f81818b98bd5}">
+		<property name="position">
+			<value>1.53125</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7d5100fa-09a8-4aef-b225-2503b2922e74}">
+		<property name="position">
+			<value>1.762766439909297</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9dd2a6df-19bc-4b33-9542-969bdfd8acf8}" />
 </objects>
