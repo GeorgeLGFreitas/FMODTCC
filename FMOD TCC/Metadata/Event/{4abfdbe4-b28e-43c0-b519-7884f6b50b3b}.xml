@@ -8,7 +8,7 @@
 			<value>Soco</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6ca35337-e5c7-407f-84da-9cc00087ef72}</destination>
@@ -64,6 +64,7 @@
 	<object class="GroupTrack" id="{d58824a8-4935-4294-86ae-aa699f7c23f1}">
 		<relationship name="modules">
 			<destination>{8d7ed108-038d-4563-9454-b89318f984ea}</destination>
+			<destination>{aaef4531-e81c-4fb6-949d-036f56b22303}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{fe42240e-6a9c-45c0-afb1-4e697668c7d4}</destination>
@@ -72,6 +73,7 @@
 	<object class="Timeline" id="{8e866e57-434a-4158-a8f0-8fe10ccdf070}">
 		<relationship name="modules">
 			<destination>{8d7ed108-038d-4563-9454-b89318f984ea}</destination>
+			<destination>{aaef4531-e81c-4fb6-949d-036f56b22303}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{217055e1-0cbe-4c2c-b783-66938cf6c35f}">
@@ -105,9 +107,26 @@
 			<destination>{941f139a-aa63-410d-b3e6-98b418575eac}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{aaef4531-e81c-4fb6-949d-036f56b22303}">
+		<property name="length">
+			<value>0.25</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.1015625</value>
+		</property>
+		<relationship name="automators">
+			<destination>{401d9757-083d-4015-9ace-85a1a6aa3853}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{d1744912-8347-437b-a80a-df7a3e3bb05f}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{74e117ad-e888-4bc7-b7ef-02a8c33da1b7}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{fe42240e-6a9c-45c0-afb1-4e697668c7d4}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -135,6 +154,19 @@
 		</property>
 		<property name="amount">
 			<value>6</value>
+		</property>
+	</object>
+	<object class="Automator" id="{401d9757-083d-4015-9ace-85a1a6aa3853}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>pitch</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{d1744912-8347-437b-a80a-df7a3e3bb05f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4.5</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{0daf416f-e822-4167-b225-44328a213d77}">

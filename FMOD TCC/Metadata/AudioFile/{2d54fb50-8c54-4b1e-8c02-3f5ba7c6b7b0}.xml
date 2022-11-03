@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{2d54fb50-8c54-4b1e-8c02-3f5ba7c6b7b0}">
+		<property name="assetPath">
+			<value>Hanna Voice Last Ver3.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>183.27238095238096</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{708b61f3-92c7-4215-8d7a-9fad1ec1a42c}</destination>
+		</relationship>
+	</object>
+</objects>
